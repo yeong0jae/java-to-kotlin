@@ -36,6 +36,7 @@ public class NullValue {
         }
 
         // ...
+        return number;
     }
 
 }

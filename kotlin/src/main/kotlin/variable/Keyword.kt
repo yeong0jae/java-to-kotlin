@@ -1,5 +1,7 @@
 package variable
 
+val PI = 3.141592 // can declare variables at the top level
+
 fun main() {
 
     var number1 = 10L
@@ -15,6 +17,10 @@ fun main() {
     val number6: Long
     number6 = 15L // val 최초 한 번만 할당 가능
     println(number6)
+
+    val numbers = listOf(1, 2)
+//    numbers = listOf(3, 4) 컴파일 에러
+    
 }
 
 fun primitiveType() {

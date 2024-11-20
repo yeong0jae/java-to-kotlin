@@ -13,7 +13,7 @@ public class Keyword {
 //        number2 = 20L; 컴파일 에러
 
         Long number3 = 1_000L; // (3)
-        Person person = new Person("김영재"); // (4)
+        Person person = new Person("김영재", 25); // (4)
 
         final List<Integer> numbers = Arrays.asList(1, 2);
         // 컬렉션 자체는 불변이지만, 컬렉션 내부의 요소는 가변일 수 있음

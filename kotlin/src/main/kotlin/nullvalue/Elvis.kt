@@ -19,7 +19,7 @@ fun startsWithA3Elvis(str: String?): Boolean {
 
 // early return
 fun calculate(number: Long?): Long {
-    number ?: return 0
+    return number ?: 0
 
     // ...
 }

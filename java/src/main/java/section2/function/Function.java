@@ -38,4 +38,5 @@ public class Function {
             System.out.println(str);
         }
     }
+
 }

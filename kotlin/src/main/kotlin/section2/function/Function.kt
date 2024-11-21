@@ -14,6 +14,7 @@ fun main() {
     printAll("A", "B", "C") // 콤마로
     val array = arrayOf("A", "B", "C")
     printAll(*array) // spread operator. 배열을 풀어서 전달
+    printAll(*array, "D", "E")
 }
 
 fun max(a: Int, b: Int) =

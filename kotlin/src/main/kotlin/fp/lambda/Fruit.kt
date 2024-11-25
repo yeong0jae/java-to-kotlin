@@ -48,3 +48,9 @@ private fun filterFruit(
     return results
 }
 
+private fun filterFruitRefactor(
+    fruits: List<Fruit>, filter: (Fruit) -> Boolean
+): List<Fruit> {
+    return fruits.filter(filter) // filter 함수에 람다식을 전달
+}
+

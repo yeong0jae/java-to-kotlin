@@ -54,3 +54,8 @@ private fun filterFruitRefactor(
     return fruits.filter(filter) // filter 함수에 람다식을 전달
 }
 
+data class Fruit(
+    val name: String,
+    val price: Int
+)
+
